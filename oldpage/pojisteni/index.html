@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- viewport (pro responsivitu)-->
+  <meta name="viewport"="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!--stylesheet-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/images/favicon.png">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <title>Pojistění | ITEAD</title>
+</head>
+
+<body onload="typewriter">
+
+  <div class="container">
+    <!-- Úvodní strana -->
+    <div class="front-page">
+      <!-- sekce 1 -->
+      <section class="section-1">
+              <div class="navbar-wrapper" style="background: none;">
+                <nav class="navbar">
+                  <a href="/">
+                    <div class="navbar-logo logo">
+                      <span class="p-1"></span>
+                      <span class="p-2"></span>
+                      <img src="/images/logo-lista.png" class="nav-logo-image" alt="" style="filter: invert(0);">
+                      ITEAD
+                    </div>
+                  </a>
+                  <ul class="nav-list">
+                    <li class="nav-list-item dropdown-hover">
+                      <a href="/pojisteni" class="nav-list-link">Pojištění<i class="fas fa-chevron-down" style="transform: rotate(0deg);"></i></a>
+                      <ul class="nav-dropdown" style="opacity: 0; visibility: hidden;">
+                        <li class="nav-dropdown-item">
+                          <a href="/zemedelstvi" class="nav-dropdown-link-1">Zemědělství</a>
+                          <a href="#" class="nav-dropdown-link-2">Typ B</a>
+                        </li>
+                        <li class="nav-dropdown-item">
+                          <a href="/podnikatele-prumysl" class="nav-dropdown-link-1">Podnikatelé a průmysl</a>
+                          <a href="#" class="nav-dropdown-link-2">Typ D</a>
+                        </li>
+                        <li class="nav-dropdown-item">
+                          <a href="/municipality" class="nav-dropdown-link-1">Municipality</a>
+                          <a href="#" class="nav-dropdown-link-2">Typ F</a>
+                        </li>
+                        <li class="nav-dropdown-item">
+                          <a href="/obcane" class="nav-dropdown-link-1">Občanské pojištění</a>
+                          <a href="#" class="nav-dropdown-link-2">Typ H</a>
+                        </li>
+
+                      </ul>
+
+                    </li>
+
+                    <li class="nav-list-item">
+                      <a href="/o-nas" class="nav-list-link">O nás</a>
+                    </li>
+                    <li class="nav-list-item">
+                      <a href="/spoluprace" class="nav-list-link">Spolupráce</a>
+                    </li>
+                    <li class="nav-list-item">
+                      <a href="/kontakt" class="nav-list-link">Kontakt</a>
+                    </li>
+                  </ul>
+                  <div class="navbar-buttons">
+                    <a href="/klientska-sekce"><button type="button" name="button" class="navbar-btn login-btn loginBtn btn" style="border-top: none; border-right: none; border-bottom: 0.1rem solid rgb(255, 255, 255); border-left: none; border-image: initial;">Klientská sekce</button></a>
+
+                  </div>
+                </nav>
+              </div>
+              <div class="banner">
+                <h1 class="banner-heading" id="nadpis">Pojistění</h1>
+
+              </div>
+            </section>
+      <!-- konec sekce 1 -->
+      <!-- Sekce 2 -->
+
+
+      <section class="section-2">
+
+        <h1 class="section-2-heading">Pojistné produkty pro</h1>
+        <div class="services">
+          <div class="service service1">
+            <h3 class="service-heading">Zemědělství</h3>
+            <img src="/images/zemedelstvi_nahled.jpg" alt="" class="image-nahled">
+            <a href="/zemedelstvi"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+
+          </div>
+          <div class="service service2">
+            <h3 class="service-heading">Podnikatelé a průmysl</h3>
+            <img src="/images/prumysl_nahled.jpg" alt="" class="image-nahled">
+            <a href="/podnikatele-prumysl"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+          </div>
+          <div class="service service3">
+            <h3 class="service-heading">Města a municipality</h3>
+            <img src="/images/municipality_nahled.jpg" alt="" class="image-nahled">
+            <a href="/municipality"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+          </div>
+          <div class="service service4">
+            <h3 class="service-heading">Občané</h3>
+            <img src="/images/obcane_nahled.jpg" alt="" class="image-nahled">
+            <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+          </div>
+        </div>
+
+        <div class="redict-button">
+          <a href="/pojisteni"><button type="button" name="button" class="btn btn4 section-btn">Další pojistné produkty</button></a>
+        </div>
+        <hr class="hr-2" id="hr-section-2">
+      </section>
+
+      <!-- Konec sekce 2 -->
+      <!-- sekce 3 -->
+      <div class="section-3">
+        <h1 class="section-2-heading">Nabízeme typy pojištění</h1>
+        <div class="panel-wrapper">
+          <div class="panel">
+            <div class="typy-pojisteni">
+              <div class="typ-pojisteni ">
+
+                <h3 class="service-heading">Živelních rizik</h3>
+                <img src="/images/pojisteni_zivelnich_rizik.jpg" alt="" class="image-nahled">
+                <a href="/zemedelstvi"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">Kriminálních rizik</h3>
+                <img src="/images/pojisteni_kriminalnich_rizik.jpg" alt="" class="image-nahled">
+                <a href="/podnikatele-prumysl"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">Technických rizik</h3>
+                <img src="/images/pojisteni_technickych_rizik.jpg" alt="" class="image-nahled">
+                <a href="/municipality"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">Uměleckých děl</h3>
+                <img src="/images/pojisteni_umeleckych_del.jpg" alt="" class="image-nahled">
+                <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">Přerušení provozu</h3>
+                <img src="/images/pojisteni_preruseni_provozu.jpg" alt="" class="image-nahled">
+                <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">Zemědělských rizik</h3>
+                <img src="/images/pojisteni_zemedelskych_rizik.jpg" alt="" class="image-nahled">
+                <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">Škod způsobených vadou výrobku</h3>
+                <img src="/images/pojisteni_skod_zpusobenych_vadou_vyrobku.jpg" alt="" class="image-nahled">
+                <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">povinně smluvní pojištění profesní odpovědnosti za škody</h3>
+                <img src="/images/pojisteni_profesni_odpovednosti.jpg" alt="" class="image-nahled">
+                <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">odpovědnosti statutárních orgánů</h3>
+                <img src="/images/pojisteni_odpovednosti_statutarnich_organu.jpg" alt="" class="image-nahled">
+                <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">přepravy zásilek</h3>
+                <img src="/images/pojisteni_prepravy_zasilek.jpg" alt="" class="image-nahled">
+                <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">pohledávek</h3>
+                <img src="/images/pojisteni_pohledavek.jpg" alt="" class="image-nahled">
+                <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">stavebně montážních rizik</h3>
+                <img src="/images/pojisteni_stavebne_montaznich_rizik.jpg" alt="" class="image-nahled">
+                <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">vlastnického práva k nemovitosti</h3>
+                <img src="/images/pojisteni_vlastnickeho_prava.jpg" alt="" class="image-nahled">
+                <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">motorových vozidel, včetně GAP a dalších připojištění</h3>
+                <img src="/images/pojisteni_motorovych_vozidel.jpg" alt="" class="image-nahled">
+                <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">letadel, lodí, kolejových vozidel</h3>
+                <img src="/images/pojisteni_letadel_lodi_kolejovych_vozidel.jpg" alt="" class="image-nahled">
+                <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">pro případ nekonání akce</h3>
+                <img src="/images/pojisteni_nekonani_akce.jpg" alt="" class="image-nahled">
+                <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">cestovní pojištění</h3>
+                <img src="/images/pojisteni_cesty.jpg" alt="" class="image-nahled">
+                <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <div class="typ-pojisteni ">
+                <h3 class="service-heading">pojištění výhry</h3>
+                <img src="/images/pojisteni_vyhry.jpg" alt="" class="image-nahled">
+                <a href="/obcane"><button type="button" name="button" class="btn btn5 ">Zjistit více</button></a>
+              </div>
+              <hr class="hr-2">
+            </div>
+
+            <div class="redict-button">
+              <a href="/o-nas"><button type="button" name="button" class="btn btn4 section-btn">Další reference</button></a>
+            </div>
+          </div>
+          <div class="fade"></div>
+        </div>
+      </div>
+      <!-- Konec sekce 3-->
+      <!-- Sekce 5 -->
+      <section class="section-5">
+        <footer class="footer">
+          <div class="footer-top">
+            <ul class="footer-list">
+              <li>
+                <a href="/pojisteni">Pojištění</a>
+              </li>
+              <li>
+                <a href="/o-nas">O nás</a>
+              </li>
+              <li>
+                <a href="/spoluprace">Spolupráce</a>
+              </li>
+              <li>
+                <a href="/kontakt">Kontakt</a>
+              </li>
+            </ul>
+            <ul class="footer-list">
+              <li>
+                <a href="#">Čeština</a>
+              </li>
+              <li>
+                <a href="/en">English</a>
+              </li>
+              <li>
+                <a href="#">Deutsch</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-bottom">
+            <p class="copyright">&copy Institut technicko-ekonomických analýz a diagnostiky - ITEAD a.s. 2021</p>
+          </div>
+        </footer>
+      </section>
+      <!-- End of Section 5 -->
+    </div>
+
+    </section>
+    <!-- Konec Sekce 4 -->
+  </div>
+
+  <div id="cursor">
+    <div class="cursor__circle"></div>
+  </div>
+
+  <!-- Konec úvodní strany -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
