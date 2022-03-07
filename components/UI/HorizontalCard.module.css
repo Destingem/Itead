@@ -1,6 +1,6 @@
 .card{
     display: flex;
-    margin: 5vh 2vh;
+    margin: 5vh 20vh;
     justify-content: center;
     border-color: rgba(0, 0, 0, 0.034);
     border: 1px rgba(0, 0, 0, 0.212) solid;

@@ -1,4 +1,10 @@
 
 .list{
+    background-color: #243c7f0c;
+    display: flex;
+    margin: 5vh 2.5vh;
+    justify-content: center;
+    
+    border-radius: 3vh;
     
 }

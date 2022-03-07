@@ -17,12 +17,14 @@ export default function Facts() {
   ];
   return (
       
-    <HorizontalCard className={styles.list}>
+    
+      <div className={styles.list}>
       {factsArray.map((fact) => {
         return (
           <Fact counter={fact.counter} icon={fact.icon} text={fact.text} />
         );
       })}
-    </HorizontalCard>
+      </div>
+
   );
 }

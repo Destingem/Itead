@@ -18,7 +18,7 @@ export default function AnimatedPoster() {
         </Typography>
       </div>
       <button onClick={handleClick} href="/pojisteni">
-      <Card sx={{ borderRadius: 3, minWidth: 275, marginLeft: 150}} className={styles.click}  >
+      <Card sx={{ borderRadius: 3, minWidth: 275, marginLeft: 145}} className={styles.click}  >
       <Typography color="#036bb1"   variant="button" component="p" >Více o pojistění <AiOutlineArrowRight /></Typography>
       </Card>
       </button>

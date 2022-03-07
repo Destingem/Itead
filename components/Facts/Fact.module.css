@@ -1,17 +1,25 @@
 .fact{
-    min-width: 10%;
+    min-width: 15%;
     margin: 2vh 10vh;
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 2vh;
+    text-align: center;
+    background-color: #fff;
+    
 
 }
 .counter{
     color: black;
+    font-size: 4vh;
     
 }
 .icon svg{
     color:#243d7f;
     font-size: 9vh;
+}
+.text{
+    margin: 0 2vh;
 }
