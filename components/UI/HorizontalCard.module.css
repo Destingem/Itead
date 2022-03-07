@@ -1,0 +1,9 @@
+.card{
+    display: flex;
+    margin: 5vh 2vh;
+    justify-content: center;
+    border-color: rgba(0, 0, 0, 0.034);
+    border: 1px rgba(0, 0, 0, 0.212) solid;
+    border-radius: 3vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
