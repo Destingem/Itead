@@ -1,0 +1,24 @@
+.FastNav{
+    border-color: rgba(0, 0, 0, 0.034);
+    border: 1px rgba(0, 0, 0, 0.212) solid;
+    height: 50vh;
+    width: 20vh;
+    border-radius: 3vh;
+    margin: 2vh;
+    background-color: aliceblue;
+}
+.FastNav ul{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.FastNav li{
+    list-style: none;
+    margin: 2vh 3vh 2vh 0;
+    
+}
+.FastNav a{
+    color: #243d7f;
+    text-decoration: none;
+}

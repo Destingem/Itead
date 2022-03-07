@@ -1,10 +1,11 @@
 .map{
     min-height: 10vh;
-    min-width: 10vh;
+    min-width: 20vh;
     height: 50vh;
+    width: 90vh;
     border-radius: 3vh;
+    margin: 2vh;
 }
 .mavDiv{
-    min-height: 100vh;
-    border-radius: 3vh;
+    
 }
