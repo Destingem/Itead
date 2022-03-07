@@ -1,0 +1,28 @@
+.logo img {
+  max-width: 8vh;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+.navbar{
+  display: flex;
+}
+
+.links{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+}
+.links li{
+  list-style: none;
+  
+}
+.links a{
+  color: #036bb1;
+  text-decoration-line: none;
+  font-size: 3vh;
+}

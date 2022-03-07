@@ -1,0 +1,51 @@
+.poster{
+    
+    margin: 4vh 2vh;
+    height: 65vh;
+    align-items: center;
+  }
+  .poster_animation{
+    background: linear-gradient(to top, rgba(38, 38, 38, .7), rgba(38, 38, 38, .6)), url(/images/bga.jpg);
+    background-size: cover;
+    align-items: center;
+    animation: backgrounds 10s infinite;
+    height: 65vh;
+    filter: blur(5px) brightness(0.9);
+    
+  }
+  @keyframes backgrounds {
+    
+    from{background-image: url(/images/bga.jpg); }
+    to{background-image: url(/images/bga2.jpg); }
+   }
+   .header{
+    position: relative;
+    bottom: 29vh;
+    left: 4vh;
+    font: 10vh sans-serif;
+    text-shadow: 1vh;
+    text-decoration: underline;
+   }
+   .click{
+    position: relative;
+    bottom: 27vh;
+    width: 10vh;
+    height: 12vh;
+    background: white;
+    opacity: 0.75;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    align-items: center;
+   }
+   .click:hover{
+     opacity: 1;
+     transition: all 0.5s;
+   }
+   .click p{
+     font-size: 2.5vh;
+   }
+
+   
