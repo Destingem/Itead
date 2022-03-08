@@ -1,13 +1,42 @@
 .card{
-    
+    padding-top: 2vh;
     height: 50vh;
     width: 90vh;
     border-radius: 3vh;
     margin: 2vh;
-    text-align: center;
+    text-align: left;
     background-color: rgba(0, 136, 255, 0.096);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
+    align-items: center
+}
+.cardIcon{
+    background-color: #243c7fef;
+    color: #fff;
+    border-radius: 2vh;
+    width: 5vh;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.5s;
+}
+.cardIcon:hover{
+    background-color: #1d367c;
+    color: #fff;
+    border-radius: 3vh;
+    width: 5vh;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 1s;
+}
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
 }
